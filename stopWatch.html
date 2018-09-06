@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>StopWatch</title>
+		<link href="style.css" rel="stylesheet">
+		<script src="stopWatchModule.js" defer></script>
+	</head>
+	<body>
+		<div class="display">
+			<div id="hoursElapsed" class="output">
+				00:
+			</div>
+			<div id="minutesElapsed" class="output">
+				00:
+			</div>
+			<div id="secondsElapsed" class="output">
+				00.
+			</div>
+			<div id="deciSecondsElapsed" class="output">
+				00
+			</div>
+		</div>
+
+		<div class="btnContainer">
+			<button id="startBtn" class="btn">Start Timer</button>
+			<button id="resetBtn" class="btn">Reset</button>
+			<button id="stopBtn" class="btn">Stop</button>
+			<button id="lapBtn" class="btn">Lap</button>
+		</div>
+
+		<div class="display">
+			<ul id="laps">
+
+			</ul>
+
+		</div>
+	</body>
+</html>
